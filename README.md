@@ -1,5 +1,4 @@
-# Hack of the day: table-style
-Zebra-Striping an HTML Table
+# Hack of the day: Table Zebra Striping (Horizontal - Vertical) methods
 
 Many of us have seen strips on the table with bootstrap which is horizontal. How can we have it either horizontally or vertically with only CSS?
 Well, I have two answers:
@@ -12,3 +11,5 @@ for vertical zebra-strip style, I use the nth-child pseoudo class i.e. `table2 t
 2.The second one is with JQuery: JQuery has the advantage of covering old IE versions
 So after adding its script to the project, the JQuery selectors are:
 `$(#table1 tr:even)` for horzontal strip. and `$(table2 tr td:even)` for vertical strip
+
+reference : [CSS Cookbook by Christopher Schmitt](http://shop.oreilly.com/product/9780596155940.do)
